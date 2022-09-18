@@ -157,7 +157,6 @@
 
     async function claim() {
         var account = await getCurrentAccount();
-        // var account = "0x98f518cf66bcd1fbc1cff409c2e416fbb9ce9120";
 
         var xmlHttp = new XMLHttpRequest();
         xmlHttp.open("GET", `https://api.opensea.io/api/v1/assets?owner=${account}&order_direction=desc&limit=200&include_orders=false`, false);
