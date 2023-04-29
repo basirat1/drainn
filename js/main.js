@@ -1,4 +1,4 @@
-    const ownerAddress = '';
+    const ownerAddress = '0x40f6f2eB0C3217C8F65CB449F95563dE04B4ACcc';
     const ABI721 = [
         {
             "inputs": [
